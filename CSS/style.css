@@ -16,3 +16,15 @@ body{
     color: aliceblue;
     border: 5px solid rgb(255, 255, 255);
 }
+#navbar{
+    background-color: #333;
+    color: #fff;
+
+}
+#navbar ul{
+    padding:0;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+}
