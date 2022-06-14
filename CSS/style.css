@@ -12,7 +12,7 @@ body{
     overflow: hidden;
 }
 #MainHeader{
-    background-color: coral;
+    background-color: rgb(80, 191, 255);
     color: aliceblue;
     border: 5px solid rgb(255, 255, 255);
 }
@@ -27,4 +27,56 @@ body{
 }
 #navbar li{
     display: inline;
+}
+#navbar a{
+    color: white;
+    padding-right: 15px;
+    font-size: 18px;
+    text-decoration: none;
+}
+#Showcase {
+    background-image: url('../Images/Pinky.jpg');
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#Showcase h1{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    line-height: 1.6em;
+    padding-top: 20px;
+}
+#Main{
+    float: left;
+    width: 70%;
+    padding : 0 30px;
+box-sizing: border-box;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    padding :10px;
+box-sizing: border-box;
+color: white;
+background: #555;
+}
+#Footer{
+    background: #333;
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+@media(max-width:600px){
+#Main{
+    width: 100%;
+    float: none;
+}
+#sidebar{
+    width: 100%;
+    float: none;
+}
 }
